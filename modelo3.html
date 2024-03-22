@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo3</title>
+</head>
+<body>
+    <Header>
+        <h1>Formulário com Diferentes Elementos:</h1>
+    </Header>
+    <main>
+        <br>
+        <form action="teste.html" method="post" enctype="multipart/form-data">
+            <label>Selecione um ou mais arquivos:</label><br>
+            <input type="file" name="file" id="file" accept=".png, .jpg, .jpeg, .PDF," multiple>
+            <br>
+            <br>
+            <hr>
+            <label>Escolha uma opção:</label>
+            <br>
+            <input type="radio" name="option1" id="option1" value="1" checked required>Opção 1
+            <br>
+            <input type="radio" name="option1" id="option1" value="2" required>opção 2
+            <br>
+            <br>
+            <hr>
+            <label>Checkbox 1:</label>
+            <input type="checkbox" name="escolha1" id="escolha1" checked>
+            <br>
+            <label>Checkbox 2:</label>
+            <input type="checkbox" name="escolha2" id="escolha2">
+            <br>
+            <br>
+            <input type="submit" value="enviar">
+            <input type="submit" value="limpar">
+        </form>
+    </main>
+    
+</body>
+</html>

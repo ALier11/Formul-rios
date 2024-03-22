@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo1</title>
+</head>
+<body>
+    <Header>
+        <h1>Formulário de envio</h1>
+    </Header>
+    <main>
+        <form action="teste.html" method="post" enctype="multipart/form-data">
+            <label>nome:</label>
+            <input type="text" name="name" id="required">
+            <br>
+            <br>
+            <label>email:</label>
+            <input type="text" name="email" id="required">
+            <br>
+            <br>
+            <label>Senha: </label>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <br>
+            <label>Selecione um arquivo:</label>
+            <input type="file" name="file" id="file" accept=".png, .jpg, .jpeg, .PDF," multiple>
+            <br>
+            <br>
+            <label>Selecione uma opção de envio:</label>
+            <br>
+            <input type="radio" name="option1" id="option1" value="1" required>Expresso
+            <br>
+            <input type="radio" name="option1" id="option1" value="2" checked required>Padrão
+            <br>
+            <input type="radio" name="option1" id="option1" value="3" required>Econômico
+            <br>
+            <br>
+            <input type="checkbox" name="termos" id="termos" >Aceito os termos e condições
+            <br>
+            <br>
+            <input type="submit" value="enviar">
+            <input type="submit" value="limpar">
+        </form>
+    </main>
+    
+</body>
+</html>
